@@ -1,0 +1,33 @@
+{
+  "name": "software-design-principles",
+  "version": "1.0.0",
+  "description": "Zoom sur les principes de conception en développement logiciel",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "start": "yarn build && node build/index.js",
+    "start:dev": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aland404/software-design-principles.git"
+  },
+  "keywords": [
+    "software",
+    "design",
+    "solid",
+    "clean-code"
+  ],
+  "author": "aland404",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aland404/software-design-principles/issues"
+  },
+  "homepage": "https://github.com/aland404/software-design-principles#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
